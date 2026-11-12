@@ -1,0 +1,9 @@
+Python is a programming language.
+
+Machine learning allows computers to learn patterns from data.
+
+Generative AI can generate text, images, code, and other content.
+
+RAG stands for Retrieval-Augmented Generation. It allows an LLM to retrieve relevant information from external documents and use that information to generate answers.
+
+FAISS is a library developed by Meta for efficient similarity search and clustering of dense vectors. It helps retrieve relevant documents based on vector similarity.

@@ -1,0 +1,17 @@
+# Python virtual environment
+myenv/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Downloaded AI models
+models/
+
+# Environment variables and secrets
+.env
+
+# IDE files
+.vscode/
