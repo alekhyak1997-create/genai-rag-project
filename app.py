@@ -5,9 +5,11 @@ from search import search
 
 app = FastAPI()
 
-OLLAMA_URL = "http://localhost:11434"
+OLLAMA_URL = os.getenv(
+    "OLLAMA_URL",
+    "http://host.docker.internal:11434"
+)
 MODEL_NAME = "llama3.2:latest"
-
 
 @app.get("/")
 def home():
